@@ -7,14 +7,17 @@
         flex-wrap: wrap;
     } 
 }
-@media screen and(max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 17vh;
     }
-    #skills, .skills-details-container {
+    #skills {
         margin-top: 2rem;
     }
     #profile,
@@ -40,8 +43,8 @@
     }
 }
 
-@media screen and(max-width:600px) {
-    #conatct,
+@media screen and (max-width: 600px) {
+    #contact,
     footer {
         height: 40vh;
     }
